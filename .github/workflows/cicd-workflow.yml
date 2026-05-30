@@ -43,4 +43,5 @@ jobs:
             --network app-network \
             --restart always \
             -p 8000:8000 \
+            -e PORT=8000 \
             smukeshkumar240/node_docker:latest
